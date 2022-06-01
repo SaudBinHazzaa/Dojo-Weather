@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* Page */
+.page{
+}
+
+/* Background Color */
+.navbar{
+    background-color: #9FC5F8;
+    height: 60px;
+    width: 100%;
+    color: white;
+    
+}
+
+.navbar-content{
+    
+    margin-left: 300px;
+    height: 40px;
+    width: 1000px; 
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navbar-title{
+    margin-top: 10px;
+}
+
+.navbar-city{
+    height: 40px;
+    width: 500px;
+    
+}
+
+.navbar-cities{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.city-name{
+    font-size: 32px;
+}
+
+/* First Row */
+
+.first-row{
+    border-bottom: 2px solid black;
+    border-radius:5px ;
+    height:60px;
+    width: 1000px;
+    margin-left: 300px;
+}
+.first-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.capital-name{
+    font-size: 32px;
+}
+
+.measure{
+    font-size: 20px;
+}
+.temp-option{
+    width: 20px;
+}
+
+/* Second Row */
+
+.second-row{
+    height: 350px;
+    width: 1000px;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+/* Columns */
+
+.columns{
+    display: flex;
+    justify-content: space-between;
+}
+/* Weather Columns */
+
+.column{
+    height: 350px;
+    width: 220px;
+    background-color: #EEEEEE;
+    text-align: center;
+}
+
+.columns-content{
+    margin-top: 20px;
+}
+
+.day{
+    font-size: 32px;
+}
+
+.weather-image{
+    height: 148px;
+    width: 148px;
+    margin-top: 20px;
+    border-radius: 100%;
+}
+
+.weather-des{
+    margin-top: 20px;
+}
+
+
+.temp-deg{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.temp-red{
+    color: #CF2A27;
+    font-weight: bolder;
+}
+
+.temp-blue{
+    color: #2B78E4;
+    font-weight: bolder;
+}
+
+
+/* Third row */
+
+.third-row{
+    background-color: #EEEEEE;
+    border: 2px solid;
+    height: 150px;
+    width: 1000px;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+
+.third-content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.row-img{
+    width: 100px;
+}
+
+.cookie-img{
+    height: 100px;
+    width: 100px;
+}
+
+.row-info{
+    width: 600px;
+}
+
+.btn{
+    background-color: #9FC5F8;
+    font-size: 20px;
+    box-shadow:  3px 3px black;
+    ;
+}

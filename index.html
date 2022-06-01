@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+            <!-- NavBar -->
+
+            <div class="navbar">
+                <div class="navbar-content">
+                <div class="navbar-title">
+                    <h1>DojoWeather</h1>
+                </div>
+                <div class="navbar-city">
+                    <ul class="navbar-cities">
+                        <li onclick="cityalert()" class="city-name">Mekkah</li>
+                        <li onclick="cityalert()" class="city-name">Jeddah</li>
+                        <li onclick="cityalert()" class="city-name">Khober</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+
+            <!-- Container -->
+
+            <div class="container">
+
+                <!-- First Row -->
+                <div class="first-row">
+                    <div class="first-content">
+                        
+                        <div class="capital-name">
+                            <h4>Riyadh</h4>
+                        </div>
+
+                        <div class="temp-measure">
+                            <label class="measure">Show temprature in <select class="temp-options" onchange="tempdegree(this)">
+                                    <option>C*</option>
+                                    <option>Feh</option>
+                                </select></label>
+                        </div>
+                    </div>
+                </div>
+                  
+                <!-- Second Row -->
+                <div class="second-row">
+                    <div class="columns">
+                        <div class="column">
+                            <div class="columns-content">
+                            <h5 class="day">Today</h5>
+                            <img class="weather-image" src="some_sun.png" alt="sun-image">
+                            <p class="weather-des">Sunny</p>
+                            <div class="temp-deg">
+                                <label class="temp-blue">14</label>
+                                <label class="temp-red">10</label>
+                            </div>
+                        </div>
+                        </div>
+                        
+                        <div class="column">
+                            <div class="columns-content">
+                                <h5 class="day">Today</h5>
+                                <img class="weather-image" src="some_clouds.png" alt="sun-image">
+                                <p class="weather-des">Sunny</p>
+                                <div class="temp-deg">
+                                    <label class="temp-blue">14</label>
+                                    <label class="temp-red">41</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="columns-content">
+                                <h5 class="day">Today</h5>
+                                <img class="weather-image" src="some_sun.png" alt="sun-image">
+                                <p class="weather-des">Sunny</p>
+                                <div class="temp-deg">
+                                    <label class="temp-blue">44</label>
+                                    <label class="temp-red">24</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="column">
+                            <div class="columns-content">
+                                <h5 class="day">Today</h5>
+                                <img class="weather-image" src="some_rain.png" alt="sun-image">
+                                <p class="weather-des">Sunny</p>
+                                <div class="temp-deg">
+                                    <label class="temp-blue">34</label>
+                                    <label class="temp-red">24</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Third row -->
+
+                <div class="third-row">
+                    <div class="third-content">
+
+                        <div class="row-img">
+                            <img class="cookie-img" src="cookie.png" alt="">
+                        </div>
+                        <div class="row-info">
+                            <p class="cookie-info">Using HTML, CSS, and JS recreate the look and functionality of the following website. The Yellow Belt will have a similar set of feature requirements. The cropped images can be downloaded here.</p>
+                        </div>
+                        <div class="row-btn">
+                            <button type="button" class="btn" onclick="cookieremove(this)">I Accept</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        <script src="script.js"></script>
+    </body>
+</html>
